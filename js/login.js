@@ -4,7 +4,7 @@ const form = document.querySelector(".login--form");
 
 const validateInput = ({ target }) => {
   if (target.value.length > 2) {
-    return button.removeAttribute("disabled"); // retorna caso passe no teste
+    return button.removeAttribute("disabled"); // * retorna caso passe no teste
   }
   button.setAttribute("disabled", ""); // só irá ser chamado se não retornar no teste
 };
